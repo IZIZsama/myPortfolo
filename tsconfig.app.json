@@ -20,5 +20,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["public"]
+  "include": ["public", "src/data", "src/hooks", "src/components", "src/components", "src/main.tsx", "src/ProjectDetails.tsx", "src/vite-env.d.ts"]
 }
