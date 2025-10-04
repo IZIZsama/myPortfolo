@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { LanguageProvider } from './contexts/LanguageContext';
-import Header from '../src/components/Header';
-import Hero from '../src/components/Hero';
-import About from '../src/components/About';
-import Skills from '../src/components/Skills';
-import Portfolio from '../src/components/Portfolio';
-import Experience from '../src/components/Experience';
-import Contact from '../src/components/Contact';
-import Footer from '../src/components/Footer';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import ProjectDetails from './ProjectDetails';
 
 function App() {
