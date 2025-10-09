@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: myportfolo:latest
+    container_name: myportfolo
+    ports:
+      - "8080:80"
+    restart: unless-stopped
